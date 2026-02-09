@@ -1,0 +1,42 @@
+.jobs-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.jobs-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.jobs-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.jobs-table th {
+  text-align: center;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.jobs-table td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.jobs-table td:first-child {
+  text-align: left;
+}
+
+.jobs-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.jobs-table tbody tr:hover {
+  background-color: #f1f1f1;
+}

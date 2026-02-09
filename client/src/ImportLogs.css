@@ -1,0 +1,32 @@
+.import-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.import-table th {
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.import-table td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.import-table td:first-child {
+  text-align: left;
+}
+
+.import-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.import-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
